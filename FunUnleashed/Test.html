@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>TEST</title>
+		<script type="text/javascript">
+			
+			function buttonclicked() {
+				console.log("clicked")
+                window.location.href = "webcal://website.mobi/mymeeting.ics";
+                return "done"
+			}
+        
+		</script>
+	</head>
+	<body>
+		<div>
+			<button onclick="buttonclicked()"> 
+			click here 
+			</button>
+            <a href="https://sdkplugin.s3-ap-southeast-1.amazonaws.com/test.ics">open ics</a>
+		</div>
+	</body>
+</html>
